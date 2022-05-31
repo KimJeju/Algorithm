@@ -1,6 +1,6 @@
 public class letterCapitalize {
     public static void main(String[] args) {
-        System.out.println(letterCapitalize("hello world"));
+        System.out.println(letterCapitalize("nEVER gIVE uP"));
     }
 
     public static String letterCapitalize(String str) {
