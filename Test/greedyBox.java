@@ -1,11 +1,8 @@
 import java.util.Arrays;
 
-import static java.util.Arrays.sort;
-
 public class greedyBox {
     public static void main(String[] args) {
-
-        System.out.println(boxGreedy(new int[]{42,25,60,73,103,167},187));
+      //  System.out.println(boxGreedy(new int[]{42,25,60,73,103,167},187));
     }
 
     public static int boxGreedy(int[] stuff,int limit){
