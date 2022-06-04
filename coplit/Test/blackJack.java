@@ -24,6 +24,7 @@ public class blackJack {
         return count;
     }
 
+    //받은 수가 소수 인지 판단하는 함수
     public static Boolean isPrime(int number) {
         for (int i = 2; i<=(int)Math.sqrt(number); i++) {
             if (number % i == 0) {
