@@ -1,10 +1,4 @@
-import java.lang.reflect.Array;
-<<<<<<< HEAD
-//12
-=======
-import java.util.Locale;
 
->>>>>>> bcecef1 (백준 2480)
 public class abTest {
     public static void main(String[] args) {
         System.out.println(AbTest("abcdb adc"));
