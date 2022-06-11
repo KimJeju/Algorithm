@@ -1,5 +1,10 @@
 import java.lang.reflect.Array;
+<<<<<<< HEAD
 //12
+=======
+import java.util.Locale;
+
+>>>>>>> bcecef1 (백준 2480)
 public class abTest {
     public static void main(String[] args) {
         System.out.println(AbTest("abcdb adc"));
@@ -7,15 +12,18 @@ public class abTest {
 
     public static boolean AbTest(String str){
 
-        String[] word = str.split(" ");
-        boolean result = false;
+       str = str.toLowerCase();
 
-        for(int i = 0; i < word.length ; ++i){
-            if(str.charAt(0) == 'a' && str.charAt(4) == 'b' && word.length == 4
-                    || str.charAt(0) == 'b' && str.charAt(4) == 'a' && str.length() == 4){
-                result = true;
+       if(str.length() == 0){
+           return false;
+
+       }
+        for(int i = 0; i < str.length() ; ++i){
+            if(str.charAt(i) == 'a' && str.charAt(i + 4) == 'b'
+                    || str.charAt(i) == 'b' && str.charAt(i + 4) == 'a'){
+                return true;
             }
         }
-        return result;
+        return false;
     }
 }
