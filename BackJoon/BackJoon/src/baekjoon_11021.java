@@ -11,7 +11,7 @@ public class baekjoon_11021 {
 
         StringTokenizer st;
 
-        for(int i = 1;  i <= n; ++i){
+        for(int i = 1;  i < n; ++i){
             st = new StringTokenizer(br.readLine()," ");
 
             System.out.println("Case #" + i + ": " + (Integer.parseInt(st.nextToken()) +Integer.parseInt(st.nextToken())));
