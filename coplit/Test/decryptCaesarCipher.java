@@ -9,7 +9,7 @@ public class decryptCaesarCipher {
     public static String decryptCaesarCipher(String str, int secret){
 
         String alpha = "abcdefghijklmnopqrstuvwxyz";
-         
+
         String result = "";
 
         for(int i = 0; i < str.length(); ++i){
